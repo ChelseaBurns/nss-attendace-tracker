@@ -10,7 +10,15 @@
   </head>
   <body>
     <div class="container">
-      <h1>Hello, world!</h1>
+      <nav>
+        <ul>
+          <li><a href="/#/">Go to App</a></li>
+          <li ng-hide="auth"><a href="/#/login">TA Login</a></li>
+          <li ng-hide="auth"><a href="/#/logout">Logout</a></li>
+        </ul>
+      </nav>
+      <div ng-view class="app"></div>
     </div>
+    <script src="assets/static/static.config.js"></script>
   </body>
 </html>
