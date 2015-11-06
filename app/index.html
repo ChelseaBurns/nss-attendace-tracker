@@ -1,43 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en", ng-app="nssAttendanceApp">
 
-<head>
-	<meta charset="utf-8">
-    <link rel="stylesheet" href="lib/onsen/css/onsenui.css"/>
-    <link rel="stylesheet" href="lib/onsen/css/onsen-css-components.css"/>
-    <script src="lib/onsen/js/angular/angular.js"></script>
-    <script src="lib/onsen/js/onsenui.js"></script>
-    <script>
-      var module = ons.bootstrap('my-app', ['onsen']);
-      module.controller('AppController', function($scope) { });
-      module.controller('PageController', function($scope) {
-        ons.ready(function() {
-          // Init code here
-        });
-      });
-    </script>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible", content="IE=edge">
+    <meta name="viewport", content="width=device-width, initial-scale=1">
 
     <title>NSS Attendance Tracker</title>
 
+    <link rel="stylesheet" type="text/css" href="styles/main.scss">
+    <script>
 
-</head>
-<body ng-controller="NSSAttendanceApp">
-    <ons-navigator var="navigator">
-      <ons-page ng-controller="Navigation">
-        <h1>Hello, World!</h1>
-      </ons-page>
-    </ons-navigator>
+    </script>
+  </head>
 
 
+  <body>
 
-<!-- Scripts -->
-<!-- AngularJS -->
-<script src="/node_modules/angular/angular.js"></script>
-<!-- jQuery -->
-<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
-
-
-</body>
+  </body>
 </html>
