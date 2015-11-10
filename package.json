@@ -28,6 +28,7 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-sass": "^1.1.0",
     "http-server": "^0.8.5",
+    "karma": "^0.13.15",
     "load-grunt-tasks": "^3.3.0"
   }
 }
